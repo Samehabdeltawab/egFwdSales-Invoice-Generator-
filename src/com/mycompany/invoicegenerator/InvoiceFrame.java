@@ -47,7 +47,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author BumbleBee
+ * @author Sameh Abdeltawab
  */
 public class InvoiceFrame extends javax.swing.JFrame implements ActionListener, ListSelectionListener  {
 
@@ -524,9 +524,9 @@ public class InvoiceFrame extends javax.swing.JFrame implements ActionListener, 
 
                 }
                 itemTable.setModel(new DefaultTableModel(content1,columnItemNames));
-              /////
+              
                
-               
+          
                nameItemField1.setText("");
                priceField1.setText("");
                 System.out.println("after add to table0");    
